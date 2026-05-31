@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Carta Numero Um</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div id="stars"></div>
+
+<!-- envelope -->
+
+<div id="intro">
+<div class="seal-container">
+<div class="seal" id="seal">
+✦
+</div>
+<div class="envelope" id="envelope">
+<div class="flap"></div>
+<div class="letter-preview"></div>
+</div>
+</div>
+<p class="click-text">
+Toque para abrir
+</p>
+</div>
+
+<!-- carta -->
+
+<div id="letter-screen">
+<div class="letter-container">
+<div class="letter" id="letter">
+
+<!-- frente -->
+
+<div class="face front">
+<h1>Dia 01 - O dia em que nossos caminhos se cruzaram</h1>
+<div id="typed-text"></div>
+<div class="music-card">
+<div class="album-cover">
+<img
+src="capa.jpg"
+alt="Capa"
+/>
+
+</div>
+<div class="song-info">
+<h3>All I Wanted</h3>
+<p>Paramore</p>
+<button id="playMusic">
+▶ Tocar Música
+</button>
+</div>
+<div class="qr-box">
+<img
+src="qr.png"
+alt="QR Code"
+/>
+
+</div>
+
+</div>
+<button class="flip-btn">
+Virar Carta →
+</button>
+</div>
+
+<!-- verso -->
+
+<div class="face back">
+
+<h1>Continuação...</h1>
+
+<div class="back-content">
+
+<h3>Você, sempre tão receoso, cuidadoso com cada palavra, parecendo um soldadinho andando em um campo minado, com medo de dar um passo em falso e ir pro espaço. E eu? É, você já me conhece... Eu sou o próprio caos, o tipo de pessoa que abraça o mundo inteiro de uma vez, intensa feito um furacão. Eu cheguei derrubando os seus muros com a minha intensidade, e você, com toda a sua calma e cuidado, me deu um lugar seguro para pousar.
+</h3>
+
+<h3>Hoje, olhando para o tamanho do amor que nos une e para a torcida gigante que eu tenho por você nessa fase da prova, eu vejo que os nossos caminhos não se cruzaram por acaso. A minha intensidade e o seu jeito cuidadoso se encaixaram perfeitamente.
+</h3>
+
+<h3>Obrigada por ter deixado o soldado baixar a guarda para esse furacão aqui entrar. Estou com você hoje, no dia 01, e estarei até o final. Boa jornada hoje, meu grandão.
+</h3>
+
+</div>
+
+<button class="flip-btn back-btn">
+
+← Voltar
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- musica -->
+
+<audio id="audio">
+
+<source
+src="alliwanted.mp3"
+type="audio/mpeg">
+
+</audio>
+
+<!-- mensagem secretas -->
+
+<div class="secret-message msg1">
+⭐ Eu te amo.
+</div>
+
+<div class="secret-message msg2">
+🌙 Somos um só.
+</div>
+
+<div class="secret-message msg3">
+✨ Obrigado por ser você.
+</div>
+
+
+<script src="script1.js"></script>
+
+</body>
+</html>
